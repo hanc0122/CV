@@ -145,6 +145,21 @@ h6 {
     box-shadow: none;
 }
 
+@media (min-width : 640px) {
+.form-group, .form-btn  {
+    margin-left: 300px;
+    margin-right: 300px;
+    }
+}
+
+@media (max-width : 640px) {
+    .form-group, .form-btn {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
 .form-control:focus {
     border-color: #68c3a3;
     box-shadow: none;
@@ -1539,6 +1554,7 @@ Icon for all respective meta
 
 /*MAP*/
 .location-map {
+    display: none;  /* commenting out the map causes a JS error. Hence this rule. */
     padding: 4px;
     border: 1px solid #eee;
     border-bottom: 3px double #eee;
