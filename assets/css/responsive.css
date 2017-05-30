@@ -56,9 +56,12 @@
 
 
 	/*resume*/
+
+@media (max-width : 766px) {
 	.resume:before,
-	.resume:after{
-		left:1px;
+	.resume:after {
+		left: 1px;
+	  }
 	}
 
 	/*skill section*/
