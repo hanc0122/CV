@@ -1579,6 +1579,12 @@ Icon for all respective meta
     margin: 0;
 }
 
+@media (max-width : 640px) {
+.copyright {
+    text-align: center;
+    }
+}
+
 .footer-image {
     height: 80px;
     width: 80px;
