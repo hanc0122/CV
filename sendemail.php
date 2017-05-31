@@ -12,7 +12,7 @@
 
     $subject    = strip_tags($_POST['subject']);
     $email       = strip_tags($_POST['email']);
-    $phone      = strip_tags($_POST['phone']);
+    //$phone      = strip_tags($_POST['phone']);
     $name       = strip_tags($_POST['name']);
     $message    = nl2br( htmlspecialchars($_POST['message'], ENT_QUOTES) );
     $result     = array();
@@ -52,7 +52,7 @@
         '{{email}}'=>$email,
         '{{message}}'=>$message,
         '{{name}}'=>$name,
-        '{{phone}}'=>$phone
+      //  '{{phone}}'=>$phone
         );
 
 
@@ -61,7 +61,7 @@
     $contents =  strtr($templateContents, $templateTags);
 
     if ( mail( $to, $subject, $contents, $headers ) ) {
-        $result = array( 'response' => 'success', 'message'=>'<strong>Thank You!</strong>&nbsp; Your email has been delivered.' );
+        $result = array( 'response' => 'success', 'message'=>'<strong>Thank You!</strong>&nbsp; Your email has been sent, i will be in touch soon.' );
     } else {
         $result = array( 'response' => 'error', 'message'=>'<strong>Error!</strong>&nbsp; Cann\'t Send Mail.'  );
     }
