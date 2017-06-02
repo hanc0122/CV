@@ -59,7 +59,7 @@ a > * {
 a:focus,
 a:hover {
     outline: none;
-    color: #333333;
+    color: #68c3a3;
     text-decoration: none;
 }
 
