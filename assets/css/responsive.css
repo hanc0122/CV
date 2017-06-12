@@ -44,6 +44,7 @@
 	.biography {
 		margin-top: 20px;
 		margin-bottom: 45px;
+		max-width: 400px;
 	}
 
 	ul.list-check li {
@@ -200,9 +201,9 @@
 		margin-bottom: 45px;
 	}
 
-	ul.list-check li {
-		width: 50%;
-	}
+	/*ul.list-check li {*/
+		/*width: 50%;*/
+	/*}*/
 
 
 	/*resume*/
@@ -324,6 +325,8 @@
 	.biography {
 		margin-top: 20px;
 		margin-bottom: 45px;
+		width: 400px;
+		margin-left: 21%;
 	}
 
 	/*resume*/

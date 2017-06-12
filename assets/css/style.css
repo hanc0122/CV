@@ -145,10 +145,17 @@ h6 {
     box-shadow: none;
 }
 
-@media (min-width : 640px) {
+@media (min-width : 992px) {
 .form-group, .form-btn  {
     margin-left: 300px;
     margin-right: 300px;
+    }
+}
+
+@media (max-width : 991px) {
+    .form-group, .form-btn  {
+        margin-left: 100px;
+        margin-right: 100px;
     }
 }
 
@@ -1022,9 +1029,13 @@ Resume Timeline
 
 #strength-list {
     margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media (min-width : 992px) {
+    #strength-list {
+        display: flex;
+    }
 }
 
 .list-points {
