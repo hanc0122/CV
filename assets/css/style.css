@@ -1596,6 +1596,10 @@ Icon for all respective meta
     }
 }
 
+img.copyright {
+    width: 40px;
+}
+
 .footer-image {
     height: 80px;
     width: 80px;
