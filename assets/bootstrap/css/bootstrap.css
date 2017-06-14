@@ -5775,10 +5775,12 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  color: #68c3a3;
 }
 .modal-body {
   position: relative;
   padding: 15px;
+  color: #282828;
 }
 .modal-footer {
   padding: 15px;
