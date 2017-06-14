@@ -146,21 +146,21 @@ h6 {
 }
 
 @media (min-width : 992px) {
-.form-group, .form-btn  {
+.form-group, .form-btn, .alert  {
     margin-left: 300px;
     margin-right: 300px;
     }
 }
 
 @media (max-width : 991px) {
-    .form-group, .form-btn  {
+    .form-group, .form-btn, .alert  {
         margin-left: 100px;
         margin-right: 100px;
     }
 }
 
 @media (max-width : 640px) {
-    .form-group, .form-btn {
+    .form-group, .form-btn, .alert {
         margin-left: 10px;
         margin-right: 10px;
     }
