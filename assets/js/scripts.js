@@ -306,12 +306,12 @@ jQuery(function ($) {
 
             if( data.response=='error' ){
 
-                $this.before( '<div class="alert alert-danger">'+data.message+'</div>' );
+                $this.before( '<div class="alert alert-danger">'+"Can\'t Send Mail.'"+'</div>' );
             }
 
-            if( data.response=='success' ){
+            if( data.response!='error' ){
 
-                $this.before( '<div class="alert alert-success">'+data.message+'</div>' );
+                $this.before( '<div class="alert alert-success">'+"Success! I'll be in touch soon"+'</div>' );
                 $this.find('input, textarea').val('');
             }
 
