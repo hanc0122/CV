@@ -220,6 +220,10 @@ jQuery(function ($) {
     //
     //
 
+    $('.portfolio').on('click', function() {
+        $('.portfolio').addClass('.hover');
+        $('.tt-overlay').addClass('.hover');
+    });
 
 
     // -------------------------------------------------------------

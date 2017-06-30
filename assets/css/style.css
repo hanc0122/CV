@@ -1293,7 +1293,7 @@ Resume Timeline
 }
 
 .portfolio:hover .tt-overlay, 
-.portfolio:hover .links {
+.portfolio:hover .links, .hover {
     opacity: 1;
     -webkit-transform: translate(0,0);
     -moz-transform: translate(0,0);
