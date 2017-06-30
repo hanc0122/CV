@@ -220,10 +220,13 @@ jQuery(function ($) {
     //
     //
 
-    $('.portfolio').on('click', function() {
-        $('.portfolio').addClass('.hover');
-        $('.tt-overlay').addClass('.hover');
-    });
+    // -------------------------------------------------------------
+    // iOS hover --> click attempt (not working)
+    // -------------------------------------------------------------
+    // $('.portfolio').on('click', function() {
+    //     $('.portfolio').addClass('.hover');
+    //     $('.tt-overlay').addClass('hover');
+    // });
 
 
     // -------------------------------------------------------------

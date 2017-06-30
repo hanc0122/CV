@@ -1293,7 +1293,7 @@ Resume Timeline
 }
 
 .portfolio:hover .tt-overlay, 
-.portfolio:hover .links, .hover {
+.portfolio:hover .links {
     opacity: 1;
     -webkit-transform: translate(0,0);
     -moz-transform: translate(0,0);
@@ -1304,6 +1304,7 @@ Resume Timeline
 .portfolio:hover .portfolio-info{
     bottom: 0;
 }
+
 .portfolio-info h3 {
     font-size: 14px;
     line-height: 45px;

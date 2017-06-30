@@ -405,6 +405,24 @@
 
 }
 
+/* Mobile Devices (991px and smaller) */
+@media (max-width : 991px) {
+	.portfolio .tt-overlay,
+	.portfolio .links {
+		opacity: 1;
+		-webkit-transform: translate(0,0);
+		-moz-transform: translate(0,0);
+		-ms-transform: translate(0,0);
+		-o-transform: translate(0,0);
+		transform: translate(0,0);
+	}
+	.portfolio .portfolio-info{
+		bottom: 0;
+	}
+	.portfolio-date {
+		margin-top: 7px;
+	}
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width : 1200px) and (max-width : 1279px) {
